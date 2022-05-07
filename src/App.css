@@ -1,0 +1,106 @@
+* {
+  color: #fff;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+  width: 50vw;
+}
+
+li {
+  padding: 10px;
+  display: inline-block;
+}
+
+.navbar {
+  width: 100%;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5%;
+}
+
+.navbar p {
+  letter-spacing: 2.7px;
+}
+
+.nav {
+  width: fit-content;
+  background-color: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(20px);
+  margin-top: 40px;
+
+}
+
+.line {
+  width: 30vw;
+  height: 1px;
+  margin-left: 5%;
+  margin-top: 40px;
+  background-color: rgba(151, 151, 151, 1);
+}
+
+.App {
+  height: 100vh;
+}
+
+.star {
+  margin-left: 5%;
+  margin-top: 40px;
+}
+
+.space-main {
+  position: absolute;
+  top: 40%;
+  left: 15%
+}
+
+.explor-btn {
+  position: absolute;
+  top: 45%;
+  right: 15%
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  body {
+    background: url('/src/assets/home/background-home-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  body {
+    background: url('/src/assets/home/background-home-tablet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  body {
+    background: url('/src/assets/home/background-home-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
